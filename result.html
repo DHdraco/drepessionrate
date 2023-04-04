@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHC</title>
+    <link href="style.css" type="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+</head>
+<script>
+   function fun(){
+   var data = [
+        {
+          domain: { x: [0, 1], y: [0, 1] },
+          value: 100,
+          title: { text: "hai" },
+          type: "indicator",
+          mode: "gauge+number",
+          delta: { reference: 400 },
+          gauge: { axis: { range: [null, 40] } },
+          DelayNode:5000
+        }
+      ];
+      console.log("123");
+      var layout = { width: 600, height: 400 };
+     var samp = document.getElementsByIdName("myplot").value;
+      Plotly.newPlot(samp, data, layout);
+    }
+</script>
+<body >
+    <h3 class="hi">This is a Result Page</h3>
+    <button onclick="fun()"> here</button>
+    <div class="container result"><!-- Result Part -->
+        <!--<h1>fjhgoghroghe</h1>-->
+        <div id="myPlot" style="width:550px;height:300px;"><a href="https://www.zingchart.com/"></a></div>
+        <h2>Your Stress Level is Normal</h2>
+        
+        <img class="sam" src="" alt="">
+    </div>
+</body>
+</html>
