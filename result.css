@@ -102,6 +102,7 @@ body{
     flex-direction:column;
 }
 .btns{
+
     margin-left: 20px;
     margin-bottom: 50px;
 }
@@ -324,7 +325,7 @@ form,fieldset{
     }
     .qn-1,.qn-2,.qn-3,.qn-4,.qn-5,.qn-6,.qn-7,.qn-8,.qn-9,.qn-10{
         width:95vw;
-        height:200px;
+        height: 200px;
         font-size: 12px;
         font-weight:300;
         padding:10px;

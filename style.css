@@ -330,14 +330,14 @@ form,fieldset{
     }
     .qn-1,.qn-2,.qn-3,.qn-4,.qn-5,.qn-6,.qn-7,.qn-8,.qn-9,.qn-10{
         width:95vw;
-        height:200px;
+        height:auto;
         font-size: 12px;
         font-weight:300;
         padding:10px;
     }
     .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9,.btn10{
         margin-left:250px;
-        width:75px;
+        width:400px;
         padding:2px;
         font-size: 12px;
         font-weight:400;
