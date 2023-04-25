@@ -10,7 +10,7 @@ body{
     height:100vh;
     display:flex;
     flex-direction:column;
-    background: url(Images/wepik-export-20230423201236.png) no-repeat;
+    background: url(Images/DetailedFittingBullmastiff-size_restricted.gif) no-repeat;
     background-size: cover;
     position:relative;
 }
@@ -20,7 +20,7 @@ body{
     justify-content:space-between;
     align-items:center;
     color:#0080ff;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.014);
     /*position:relative;*/
 }
 .logo{
@@ -40,12 +40,14 @@ body{
 .header-links ul li a{
     color:rgb(0, 0, 0);
     text-decoration:none;
-    padding:16px;
+    padding:20px;
     display:block;
 }
 .header-links ul li a:hover{
-    background-color: rgba(199, 199, 199, 0.762);
-    border-radius: 5px;
+    background-color: #00608055;
+    border-radius: 0px 0px 25px 25px;
+    margin-top: 0px;
+    color: aliceblue;
 }
 .btn{
     /*padding:absolute;*/
@@ -65,7 +67,7 @@ body{
 
 /* Container */
 .container{
-    background-color:rgba(0, 0, 0, 0.526);
+    background-color:rgba(0, 0, 0, 0.002);
     width:100vw;
     height:200vh;
     display:flex;
@@ -78,7 +80,7 @@ body{
 
 .qn-1,.qn-2,.qn-3,.qn-4,.qn-5,.qn-6,.qn-7,.qn-8,.qn-9,.qn-10{
     /*background-color: aqua;*/
-    background-color: rgba(9, 9, 9, 0.334);
+    background-color: rgba(4, 134, 143, 0.306);
     width:700px;
     height:400px;
     font-size: 22px;
@@ -105,7 +107,7 @@ body{
 .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9{
     margin-left:500px;
     width:150px;
-    background-color: #cccccc;
+    background-color: #08a0a09d;
     border-radius: 10px;
     padding:5px;
     font-size: 22px;
@@ -116,7 +118,7 @@ body{
 .btn10{
     margin-left:550px;
     width:100px;
-    /*background-color: #da6a2d;*/
+    /* background-color: #da6a2d; */
     border-radius: 10px;
     user-select: none;
     text-align:center;
@@ -130,7 +132,7 @@ body{
     border:none;
     width:100px;
     border-radius:10px;
-    background-color: #e5e5e5;
+    background-color: #08a0a05c;
     padding: 5px 10px 5px 10px;
     font-size: 22px;
     font-weight:500;
@@ -138,7 +140,8 @@ body{
 
 
 .btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover,.btn8:hover,.btn9:hover,.btn10:hover{
-    background-color: #000000;
+    background-color: #00000039;
+   
 }
 input[type='submit']:hover{
     background-color: #d2d2d2;
@@ -150,12 +153,13 @@ input[type="radio"] {
     margin-right: 5px;
     margin-bottom: 4px;
     margin-top: 5px;
-    accent-color: #c3c3c3;
+    accent-color: #1497a1d5;
+    
   }
 
 .btn1 a,.btn2 a,.btn3 a,.btn4 a,.btn5 a,.btn6 a,.btn7 a,.btn8 a,.btn9 a,.btn10 input{
     text-decoration: none;
-    color:#fff;
+    color:#f2f5f5;
 }
 .result{
     display:none;
@@ -175,11 +179,11 @@ form,fieldset{
 }
 
 /* Footer Part */
-.footer{
-    background-color:rgb(255, 255, 255);
+/* .footer{
+    background-color:rgba(255, 255, 255, 0.884);
     width:100vw;
     height:20vh;
-}
+} */
 .content a{
     color:white;
     text-decoration:none;
@@ -302,7 +306,14 @@ form,fieldset{
     align-items: center;
     justify-content: space-around;
     overflow: hidden;
-    background-color: aliceblue;
+    border-radius: 50px 50px 0px 0px;
+    border-width: 10px;
+
+}
+.footer:hover{
+    background-color: #00608055;
+    border-color:rgba(240, 248, 255, 0.104);
+    
 }
 
 @media(max-width:600px){
@@ -336,11 +347,20 @@ form,fieldset{
         padding:10px;
     }
     .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9,.btn10{
-        margin-left:250px;
+        /* margin-left:250px;
         width:400px;
         padding:2px;
         font-size: 12px;
-        font-weight:400;
+        font-weight:400; */
+        margin-left:500px;
+        width:150px;
+        background-color: #cccccc;
+        border-radius: 10px;
+        padding:5px;
+        font-size: 22px;
+        font-weight:500;
+        user-select: none;
+        text-align:center;
     }
     .btn10{
         height:28px;
