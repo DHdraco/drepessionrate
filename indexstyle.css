@@ -10,17 +10,20 @@ body{
     height:100vh;
     display:flex;
     flex-direction:column;
-    background: url(Images/wepik-export-20230423201236.png) no-repeat;
+    background: url(Images/DetailedFittingBullmastiff-size_restricted.gif) no-repeat;
+     
     /* background-size: 100vw 100vh; */
     background-size: cover;
+    background-position: center;
     position:relative;
 }
 /* Header Part */
 .header{
+    
     display:flex;
     justify-content:space-between;
-    align-items:center;
-    background-color:white;
+    /* align-items:center; */
+    background-color:rgba(132, 127, 133, 0);
     color:#2c3e50;
     width:100vw;
     /*position:relative;*/
@@ -40,13 +43,18 @@ body{
     list-style:none;
 }
 .header-links ul li a{
+
     color:rgb(0, 0, 0);
     text-decoration:none;
-    padding:16px;
+    padding:20px;
     display:block;
 }
 .header-links ul li a:hover{
-    background-color: rgba(20,193,179,0.088);
+    background-color: #00608055;
+    border-radius: 0px 0px 25px 25px;
+    margin-top: 0px;
+    
+
 }
 .btn{
     /*padding:absolute;*/
@@ -67,7 +75,7 @@ body{
 
 /* Container */
 .container{
-    background-color: rgba(103, 158, 140, 0.551);
+    background-color: rgba(103, 158, 140, 0);
     height:100vh;
     display:flex;
     flex-wrap: nowrap;
@@ -103,10 +111,11 @@ body{
 .c1{
     /* font-size: xx-large; */
    font-size: 70px;
+   color: rgb(165, 168, 169);
 
 }
 .c2{
-    
+    color: rgb(179, 221, 234);
     font-size: 20px;
 }
 .c3{
@@ -116,18 +125,20 @@ body{
     /* margin-left:30%; */
     color:white;
     border-radius:30px;
-    padding:20px 20px 19px 20px;
+    padding:20px 20px 20px 20px;
     font-size:15px;
-    background-color: hsla(195, 100%, 25%, 0.532);
-    font-size: 20px;
+    background-color: #0060803a;
+    font-size: 25px;
+    
 }
 .c3:hover{
-    background-color: hsl(0, 0%, 58%);
+    background-color: #8cafb558;
 }
 .c4{
     
     font-weight:300;
-    font-size: small;
+    font-size:medium;
+    color: rgba(0, 255, 255, 0.299);
 }
 
 
@@ -140,7 +151,18 @@ body{
     align-items: center;
     justify-content: space-around;
     overflow: hidden;
-    background-color: aliceblue;
+    border-radius: 50px 50px 0px 0px;
+    border-width: 10px;
+
+    /* background-color: rgba(240, 248, 255, 0.517); */
+}
+
+
+.footer:hover{
+    background-color: #00608055;
+    border-color:rgba(240, 248, 255, 0.104);
+    
+    
 }
 .contact{
     /*background-color: #2c3e50;*/
@@ -180,7 +202,6 @@ body{
 .img1:hover{
     width: 40px;
     height: 40px;
-   
     transition: 0.2s linear;
 }
 
