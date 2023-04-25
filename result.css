@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    /* background: url(Images/confu.jpg) no-repeat; */
+    background-size: 100vw 100vh;
+    position:relative;
+    background-color: #bac1c1f4;
+}
+/* Header Part */
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:#2c3e50;
+    background-color: rgb(255, 255, 255);
+    /*position:relative;*/
+}
+.logo{
+    margin:8px;
+    box-sizing:border-box;
+}
+.log{
+    width:150px;
+    height:50px;
+}
+.header-links ul{
+    display:flex;
+}
+.header-links ul li{
+    list-style:none;
+}
+.header-links ul li a{
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    padding:16px;
+    display:block;
+}
+.header-links ul li a:hover{
+    background-color: rgb(182, 182, 182);
+    border-radius: 75px;
+}
+
+.btn{
+    /*padding:absolute;*/
+    margin-top:10px;
+    margin-right:16px;
+    height:22px;
+    width:30px;
+    display:none;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.bar{
+    height: 3px;
+    width:100%;
+    background-color:#2c3e50;
+}
+
+/* Container */
+.container{
+    background-color:rgba(170, 176, 175, 0.68);
+    width:100vw;
+    height:200vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+
+.qn-1,.qn-2,.qn-3,.qn-4,.qn-5,.qn-6,.qn-7,.qn-8,.qn-9,.qn-10{
+    /*background-color: aqua;*/
+    background-color: rgba(9, 9, 9, 0.334);
+    width:700px;
+    height:400px;
+    font-size: 22px;
+    font-weight:500;
+    padding:20px;
+    color:white;
+    border-radius: 10px;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.qn-2,.qn-3,.qn-4,.qn-5,.qn-6,.qn-7,.qn-8,.qn-9,.qn-10{
+    display:none;
+}
+.options{
+    margin-top:5px;
+    display:flex;
+    flex-direction:column;
+}
+.btns{
+    margin-left: 20px;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9{
+    margin-left:500px;
+    width:150px;
+    background-color: #2d98da;
+    border-radius: 10px;
+    padding:5px;
+    font-size: 22px;
+    font-weight:500;
+    user-select: none;
+    text-align:center;
+}
+.btn10{
+    /*margin-left:550px;*/
+    width:100px;
+    /*background-color: #da6a2d;*/
+    border-radius: 10px;
+    user-select: none;
+    text-align:center;
+    border:none;
+    /*
+    font-size: 22px;
+    font-weight:500;
+    */
+}
+.btn10 input{
+    border:none;
+    width:100px;
+    border-radius:10px;
+    background-color: #2d98da;
+    font-size: 22px;
+    font-weight:500;
+}
+
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover,.btn8:hover,.btn9:hover,.btn10:hover{
+    background-color: #45aaf2;
+}
+input[type='submit']:hover{
+    background-color: #45aaf2;
+}
+.btn1 a,.btn2 a,.btn3 a,.btn4 a,.btn5 a,.btn6 a,.btn7 a,.btn8 a,.btn9 a,.btn10 input{
+    text-decoration: none;
+    color:#fff;
+}
+.result{
+    display:none;
+}
+form{
+    position:absolute;
+}
+form,fieldset{
+    border:none;
+}
+.ill{   
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Footer Part */
+.footer{
+    background-color:rgb(255, 255, 255);
+    width:100vw;
+    height:500px;
+}
+.content a{
+    color:white;
+    text-decoration:none;
+    padding:10px;
+}
+.img1{
+    width: 30px;
+    height: 30px;
+   
+}
+.img1:hover{
+    width: 40px;
+    height: 40px;
+   
+    transition: 0.2s linear;
+}
+
+/*@media(min-width:600px){*/
+.qn-1.active{
+    display:none;
+}
+.qn-2.active{
+    display:flex;
+    flex-direction: column;
+}
+.qn-3.active{
+    display:flex;
+    flex-direction: column;
+}
+.qn-4.active{
+    display:flex;
+    flex-direction: column;
+}
+.qn-5.active{
+    display:flex;
+    flex-direction: column;
+}
+.qn-6.active{
+    display:flex;
+    flex-direction: column;
+}
+.qn-7.active{
+    display:flex;
+    flex-direction: column;
+}
+.qn-8.active{
+    display:flex;
+    flex-direction: column;
+}
+.qn-9.active{
+    display:flex;
+    flex-direction: column;
+}
+.qn-10.active{
+    display:flex;
+    flex-direction: column;
+}
+.form.active{
+    display:none;
+}
+/*}*/
+
+
+/* Result Page */
+
+.result-container{
+    height:400vh;
+    /*display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;*/
+}
+.ill2{   
+    position:absolute;
+    z-index:0;
+}
+.ill2 img{
+    width:100vw;
+    height:80vh;
+}
+.res{
+    z-index:1;
+    margin-top:10vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #45aaf2;*/
+}
+.res-header{
+    font-size:50px;
+    z-index:2;
+    font-family:'Bebas Neue';
+    /*background-color: #2c3e50;*/
+}
+.description{
+    z-index:1;
+    font: size 22px;
+    text-align: center;
+    /*background-color: aqua;
+    margin-top:20px;
+    margin-left:50px;
+    width:60vw;
+    text-align:center;*/
+}
+.socialmedia{
+    /* background-color: #2c3e50; */
+    display:flex;
+    width: 100%;
+    justify-content: center;
+       
+}
+.anc{
+    padding-left: 50px;
+}
+.footer{
+    padding-top: 20px;
+    height: 100px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+@media(max-width:600px){
+    .btn{
+        display:flex;
+    }
+    .header-links{
+        display:none;
+        width:100%;
+    }
+    .header{
+        display:flex;
+        flex-direction:row;
+        /*align-items:flex-start;*/
+    }
+    .header-links ul{
+        flex-direction:column;
+        width:100%;
+    }
+    .header-links ul li{
+        text-align:center;
+    }
+    .header-links.active{
+        display:flex;
+    }
+    .qn-1,.qn-2,.qn-3,.qn-4,.qn-5,.qn-6,.qn-7,.qn-8,.qn-9,.qn-10{
+        width:95vw;
+        height:200px;
+        font-size: 12px;
+        font-weight:300;
+        padding:10px;
+    }
+    .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9,.btn10{
+        margin-left:250px;
+        width:75px;
+        padding:2px;
+        font-size: 12px;
+        font-weight:400;
+    }
+    .btn10{
+        height:28px;
+    }
+    .btn10 .submit{
+        width:70px;
+        font-size: 15px;
+        font-weight:400;
+    }
+    #myPlot{
+        width: 100vw;
+        height:380px;
+        overflow: hidden;
+    }
+}

@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MHC</title>
-    <link rel="stylesheet" href="style.css">
-    
-    
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>Chanakya</title>
+    <link rel="stylesheet" href="indexstyle.css">
 </head>
 <body>
     <div class="header">
@@ -22,139 +19,41 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contact</a></li>
+                <!--<li><a href="#">FAQ</a></li>-->
+                <li><a class="c2" href="#">Contact</a></li>
+                <li> <a class="c3"  href="test.html">Stress level</a></li>
             </ul>
+            
         </div>
     </div>
-    
-    
+
     <div class="container">
-        <div >
-            <div class="ill">
-            <img   src="Images/5484597.jpg"  width="550vw" height="550wh">
-           </div> 
-        </div>
-        <form  >
-            <fieldset>   
-                <div class="qn-1">
-                    <div class="qn">1) I found it hard to wind down</div>
-                    <div class="options">
-                        <div class="btns"><label for="#one1"><input type="radio" name="one" id="#one1" value="1">Did not apply to me at all</label></div>
-                        <div class="btns"><label for="#two1"><input type="radio" name="one" id="#two1" value="2">Applied to me to some degree, or some of the time</label></div>
-                        <div class="btns"><label for="#three1"><input type="radio" name="one" id="#three1" value="3">Applied to me to a considerable degree or a good part of time</label></div>
-                        <div class="btns"><label for="#four1"><input type="radio" name="one" id="#four1" value="4">Applied to me very much or most of the time</label></div>
-                    </div>
-                    <div class="btn1"><a href="#">Next</a></div>
-                </div>
-                <div class="qn-2" hidden="true">
-                    <div class="qn">2) I was aware of dryness of my mouth</div>
-                    <div class="options">
-                        <div class="btns"><label for="#one2"><input type="radio" name="two" id="#one2" value="1">Did not apply to me at all</label></div>
-                        <div class="btns"><label for="#two2"><input type="radio" name="two" id="#two2" value="2">Applied to me to some degree, or some of the time</label></div>
-                        <div class="btns"><label for="#three2"><input type="radio" name="two" id="#three2" value="3">Applied to me to a considerable degree or a good part of time</label></div>
-                        <div class="btns"><label for="#four2"><input type="radio" name="two" id="#four2" value="4">Applied to me very much or most of the time</label></div>
-                    </div>
-                    <div class="btn2"><a href="#">Next</a></div>
-                </div>
-                <div class="qn-3">
-                    <div class="qn">3) I couldn't seem to experience any positive feeling at all</div>
-                    <div class="options">
-                        <div class="btns"><label for="#one3"><input type="radio" name="three" id="#one3" value="1">Did not apply to me at all</label></div>
-                        <div class="btns"><label for="#two3"><input type="radio" name="three" id="#two3" value="2">Applied to me to some degree, or some of the time</label></div>
-                        <div class="btns"><label for="#three3"><input type="radio" name="three" id="#three3" value="3">Applied to me to a considerable degree or a good part of time</label></div>
-                        <div class="btns"><label for="#four3"><input type="radio" name="three" id="#four3" value="4">Applied to me very much or most of the time</label></div>
-                    </div>
-                    <div class="btn3"><a href="#">Next</a></div>
-                </div>
-                <div class="qn-4">
-                    <div class="qn">4) I experienced breathing difficulty (e.g. excessively rapid breathing, breathlessness in the absence of physical exertion)</div>
-                    <div class="options">
-                        <div class="btns"><label for="#one4"><input type="radio" name="four" id="#one4" value="1">Did not apply to me at all</label></div>
-                        <div class="btns"><label for="#two4"><input type="radio" name="four" id="#two4" value="2">Applied to me to some degree, or some of the time</label></div>
-                        <div class="btns"><label for="#three4"><input type="radio" name="four" id="#three4" value="3">Applied to me to a considerable degree or a good part of time</label></div>
-                        <div class="btns"><label for="#four4"><input type="radio" name="four" id="#four4" value="4">Applied to me very much or most of the time</label></div>
-                    </div>
-                    <div class="btn4"><a href="#">Next</a></div>
-                </div>
-                <div class="qn-5">
-                    <div class="qn">5) I found it difficult to work up the initiative to do things</div>
-                    <div class="options">
-                        <div class="btns"><label for="#one5"><input type="radio" name="five" id="#one5" value="1">Did not apply to me at all</label></div>
-                        <div class="btns"><label for="#two5"><input type="radio" name="five" id="#two5" value="2">Applied to me to some degree, or some of the time</label></div>
-                        <div class="btns"><label for="#three5"><input type="radio" name="five" id="#three5" value="3">Applied to me to a considerable degree or a good part of time</label></div>
-                        <div class="btns"><label for="#four5"><input type="radio" name="five" id="#four5" value="4">Applied to me very much or most of the time</label></div>
-                    </div>
-                    <div class="btn5"><a href="#">Next</a></div>
-                </div>
-
-                <div class="qn-6">
-                    <div class="qn">6) I tended to over-react to situations</div>
-                    <div class="options">
-                        <div class="btns"><label for="#one6"><input type="radio" name="six" id="#one6" value="1">Did not apply to me at all</label></div>
-                        <div class="btns"><label for="#two6"><input type="radio" name="six" id="#two6" value="2">Applied to me to some degree, or some of the time</label></div>
-                        <div class="btns"><label for="#three6"><input type="radio" name="six" id="#three6" value="3">Applied to me to a considerable degree or a good part of time</label></div>
-                        <div class="btns"><label for="#four6"><input type="radio" name="six" id="#four6" value="4">Applied to me very much or most of the time</label></div>
-                    </div>
-                    <div class="btn6"><a href="#">Next</a></div>
-                </div>
-                <div class="qn-7" hidden="true">
-                    <div class="qn">7) I experienced trembling (e.g. in the hands)</div>
-                    <div class="options">
-                        <div class="btns"><label for="#one7"><input type="radio" name="seven" id="#one7" value="1">Did not apply to me at all</label></div>
-                        <div class="btns"><label for="#two7"><input type="radio" name="seven" id="#two7" value="2">Applied to me to some degree, or some of the time</label></div>
-                        <div class="btns"><label for="#three7"><input type="radio" name="seven" id="#three7" value="3">Applied to me to a considerable degree or a good part of time</label></div>
-                        <div class="btns"><label for="#four7"><input type="radio" name="seven" id="#four7" value="4">Applied to me very much or most of the time</label></div>
-                    </div>
-                    <div class="btn7"><a href="#">Next</a></div>
-                </div>
-                <div class="qn-8">
-                    <div class="qn">8) I felt that I was using a lot of nervous energy</div>
-                    <div class="options">
-                        <div class="btns"><label for="#one8"><input type="radio" name="eight" id="#one8" value="1">Did not apply to me at all</label></div>
-                        <div class="btns"><label for="#two8"><input type="radio" name="eight" id="#two8" value="2">Applied to me to some degree, or some of the time</label></div>
-                        <div class="btns"><label for="#three8"><input type="radio" name="eight" id="#three8" value="3">Applied to me to a considerable degree or a good part of time</label></div>
-                        <div class="btns"><label for="#four8"><input type="radio" name="eight" id="#four8" value="4">Applied to me very much or most of the time</label></div>
-                    </div>
-                    <div class="btn8"><a href="#">Next</a></div>
-                </div>
-                <div class="qn-9">
-                    <div class="qn">9) I was worried about situations in which I might panic and make a fool of myself</div>
-                    <div class="options">
-                        <div class="btns"><label for="#one9"><input type="radio" name="nine" id="#one9" value="1">Did not apply to me at all</label></div>
-                        <div class="btns"><label for="#two9"><input type="radio" name="nine" id="#two9" value="2">Applied to me to some degree, or some of the time</label></div>
-                        <div class="btns"><label for="#three9"><input type="radio" name="nine" id="#three9" value="3">Applied to me to a considerable degree or a good part of time</label></div>
-                        <div class="btns"><label for="#four9"><input type="radio" name="nine" id="#four9" value="4">Applied to me very much or most of the time</label></div>
-                    </div>
-                    <div class="btn9"><a href="#">Next</a></div>
-                </div>
-                <div class="qn-10">
-                    <div class="qn">10) I felt that I had nothing to look forward to</div>
-                    <div class="options">
-                        <div class="btns"><label for="#one10"><input type="radio" name="ten" id="#one10" value="1">Did not apply to me at all</label></div>
-                        <div class="btns"><label for="#two10"><input type="radio" name="ten" id="#two10" value="2">Applied to me to some degree, or some of the time</label></div>
-                        <div class="btns"><label for="#three10"><input type="radio" name="ten" id="#three10" value="3">Applied to me to a considerable degree or a good part of time</label></div>
-                        <div class="btns"><label for="#four10"><input type="radio" name="ten" id="#four10" value="4">Applied to me very much or most of the time</label></div>
-                    </div>
-                    <div class="btn10"><button type="submit" onclick="fun();">Submit</button></div>
-                </div>
-            </fieldset>
-        </form>
-        
-        <div class="container result"><!-- Result Part -->
-            <!--<h1>fjhgoghroghe</h1>-->
-            <div id="myPlot" style="width:550px;height:300px;"><a href="https://www.zingchart.com/"></a></div>
-            <h2>Your Stress Level is Normal</h2>
-        </div>
-    </div>
+        <!-- <div class="img">
+            <img src="Images/Overwhelmed.gif" style="width:500px;height:500px;" alt="">
+        </div> -->
+        <!-- <iframe src="Images/lf20_czj9tlje.gif" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
+        <div class="contents">
+            <h1 class="c1" >Check Stress Level</h2>
     
-    <div class="footer">
-        <div class="content">
-            <a href="#">About Chanakya</a>
-            <a href="#">Contact Us</a>
+            <h4 class="c2" >& understand your mindset<br>(Stress, Anxiety, Trauma)</h4>
+            <br>
+
+            <!--<input type="submit" value="Stress Level">-->
+            <a class="c3"  href="test.html">STRESS LEVEL</a>
+            <br>
+            <h5 class="c4">we are here to help you to understand<br>the stress level by analysing your<br>mindset.</h5>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <div class="footer">
+       
+        <div class="socialmedia">
+            <a class="anc" href="#"><img class="img1"  src="Images/insta1.png" alt=""></a>
+            <a class="anc" href="#"><img class="img1"  src="Images/whatsapp1.png" alt=""></a>
+            <a class="anc" href="#"><img class="img1"  src="Images/spotify1.png" alt=""></a>
+            <a class="anc" href="#"><img class="img1"  src="Images/fb1.png" alt=""></a>
+            <a class="anc" href="#"><img class="img1"  src="Images/twitter1.png" alt=""></a>
+        </div>
+    </div>
 </body>
 </html>

@@ -69,14 +69,13 @@ btn9.addEventListener('click',()=>{
 })
 
 const btn10=document.getElementsByClassName("btn10")[0];
-const navbar10=document.getElementsByClassName('result')[0];
+const navbar10=document.getElementsByClassName('form')[0];
 btn10.addEventListener('click',()=>{
     navbar9.classList.toggle('active');
     navbar10.classList.toggle('active');
 })
 
-async function fun(){
-    document.getElementById("ill").style.display = "none";
+function tot(){
     var one = document.getElementsByName('one');
     var two = document.getElementsByName('two');
     var three = document.getElementsByName('three');
@@ -171,37 +170,54 @@ async function fun(){
         }
     }
     console.log(total);
+    localStorage.setItem("tota",total);
+
+}
+function fun(){
+    console.log("hello");
+    let total1 = localStorage.getItem("tota");
+    localStorage.clear();
+
     var tex;
-    if(total<10){
+    if(total1<10){
      tex="normal";
     }
-    else if(total<20){
+    else if(total1<20){
     tex="usual";
     }
-    else if(total<30){
+    else if(total1<30){
     tex="not normal";
     }
-    else if(total<40){
+    else if(total1<40){
         tex="depressed";
     }
-    else if(total==40){
+    else if(total1==40){
         tex="deep depression";
     };
-   console.log(total);
-
+   
     var data = [
         {
           domain: { x: [0, 1], y: [0, 1] },
-          value: total,
+          value: total1,
           title: { text: tex },
           type: "indicator",
           mode: "gauge+number",
           delta: { reference: 400 },
-          gauge: { axis: { range: [null, 40] } },
+          gauge: { axis: { range: [null, 40] },
+          bar: { color: "darkblue" } },
           DelayNode:5000
         }
       ];
       
-      var layout = { width: 600, height: 400 };
-     await Plotly.newPlot("myPlot", data, layout);
+    var layout = { width: 600, height: 400,paper_bgcolor:"#bac1c1f4" };
+    Plotly.newPlot("myPlot", data, layout, {displaylogo: false});
+      
+    
+    /*if(window.innerWidth > 600){
+        var layout = { width: 600, height: 400 };
+    }
+    else if(window.innerWidth < 600){
+        var layout = { width: 385, height: 290 };
+    }
+    Plotly.newPlot("myPlot", data, layout);*/
 }
