@@ -11,7 +11,7 @@ body{
     display:flex;
     flex-direction:column;
     background: url(Images/wepik-export-20230423201236.png) no-repeat;
-    background-size: 100vw 100vh;
+    background-size: cover;
     position:relative;
 }
 /* Header Part */
@@ -306,9 +306,9 @@ form,fieldset{
 }
 
 @media(max-width:600px){
-    .btn{
+    /* .btn{
         display:flex;
-    }
+    } */
     .header-links{
         display:none;
         width:100%;
