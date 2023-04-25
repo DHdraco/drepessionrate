@@ -57,6 +57,7 @@ body{
     display:none;
     flex-direction:column;
     justify-content:space-between;
+    
 }
 .bar{
     height: 3px;

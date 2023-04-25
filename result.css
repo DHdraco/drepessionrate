@@ -103,6 +103,8 @@ body{
 }
 .btns{
     margin-left: 20px;
+    margin-bottom: 50px;
+    
 }
 .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9{
     margin-left:500px;
@@ -143,6 +145,7 @@ body{
 input[type='submit']:hover{
     background-color: #45aaf2;
 }
+
 .btn1 a,.btn2 a,.btn3 a,.btn4 a,.btn5 a,.btn6 a,.btn7 a,.btn8 a,.btn9 a,.btn10 input{
     text-decoration: none;
     color:#fff;

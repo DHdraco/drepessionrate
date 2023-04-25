@@ -101,6 +101,7 @@ body{
 }
 .btns{
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9{
     margin-left:500px;
@@ -147,7 +148,8 @@ input[type="radio"] {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
     transform: scale(1.5);
-    margin-right: 2px;
+    margin-right: 5px;
+    margin-bottom: 10px;
     accent-color: #c3c3c3;
   }
 
