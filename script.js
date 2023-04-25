@@ -209,7 +209,7 @@ function fun(){
         }
       ];
       
-    var layout = { width: 600, height: 400,paper_bgcolor:"#bac1c1f4" };
+    var layout = { width: 600, height: 400,paper_bgcolor:"white" };
     Plotly.newPlot("myPlot", data, layout, {displaylogo: false});
       
     
