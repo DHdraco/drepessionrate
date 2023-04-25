@@ -35,6 +35,7 @@ body{
 .log{
     width:150px;
     height:50px;
+    padding-left: 20px;
 }
 .header-links ul{
     display:flex;

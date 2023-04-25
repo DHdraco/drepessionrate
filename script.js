@@ -204,12 +204,12 @@ function fun(){
           mode: "gauge+number",
           delta: { reference: 400 },
           gauge: { axis: { range: [null, 40] },
-          bar: { color: "darkblue" } },
+          bar: { color: "#1497a1d5" } },
           DelayNode:5000
         }
       ];
       
-    var layout = { width: 600, height: 400,paper_bgcolor:"white" };
+    var layout = { width: "30vw", height: "20vh",paper_bgcolor:"#1498a100",font: { color: "cadetblue", family: "Arial" } };
     Plotly.newPlot("myPlot", data, layout, {displaylogo: false});
       
     

@@ -10,20 +10,20 @@ body{
     height:100vh;
     display:flex;
     flex-direction:column;
-    /* background: url(Images/confu.jpg) no-repeat; */
+    background: url(Images/DetailedFittingBullmastiff-size_restricted.gif) no-repeat;
     background-size: 100vw 100vh;
-    position:relative;
+    /* position:relative; */
     background-color: #bac1c1f4;
+    position: fixed;
 }
 /* Header Part */
 .header{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    color:#2c3e50;
-    background-color: rgb(255, 255, 255);
-    /*position:relative;*/
-}
+    color:#0080ff;
+    background-color: rgba(255, 255, 255, 0.014);
+    /*position:relative;*/}
 .logo{
     margin:8px;
     box-sizing:border-box;
@@ -31,6 +31,7 @@ body{
 .log{
     width:150px;
     height:50px;
+    padding-left: 20px;
 }
 .header-links ul{
     display:flex;
@@ -41,12 +42,14 @@ body{
 .header-links ul li a{
     color:rgb(0, 0, 0);
     text-decoration:none;
-    padding:16px;
+    padding:20px;
     display:block;
 }
 .header-links ul li a:hover{
-    background-color: rgb(182, 182, 182);
-    border-radius: 75px;
+    background-color: #00608055;
+    border-radius: 0px 0px 25px 25px;
+    margin-top: 0px;
+    color: aliceblue;
 }
 
 .btn{
@@ -68,8 +71,8 @@ body{
 /* Container */
 .container{
     background-color:rgba(170, 176, 175, 0.68);
-    width:100vw;
-    height:200vh;
+    /* width:100vw;
+    height:200vh; */
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -245,6 +248,7 @@ form,fieldset{
     justify-content: center;
     align-items: center;
     background-color: darkblue;*/
+    /* position: relative; */
 }
 .ill2{   
     position:absolute;
@@ -273,6 +277,7 @@ form,fieldset{
     z-index:1;
     font: size 22px;
     text-align: center;
+    color: cadetblue;
     /*background-color: aqua;
     margin-top:20px;
     margin-left:50px;
@@ -346,8 +351,8 @@ form,fieldset{
         font-weight:400;
     }
     #myPlot{
-        width: 100vw;
+        /* width: 100vw;
         height:380px;
-        overflow: hidden;
+        overflow: hidden; */
     }
 }

@@ -30,6 +30,7 @@ body{
 .log{
     width:150px;
     height:50px;
+    padding-left: 20px;
 }
 .header-links ul{
     display:flex;
@@ -118,7 +119,7 @@ body{
 .btn10{
     margin-left:550px;
     width:100px;
-    /* background-color: #da6a2d; */
+    background-color: #da6a2d;
     border-radius: 10px;
     user-select: none;
     text-align:center;
