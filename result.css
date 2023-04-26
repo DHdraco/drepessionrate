@@ -10,11 +10,24 @@ body{
     height:100vh;
     display:flex;
     flex-direction:column;
-    background: url(Images/DetailedFittingBullmastiff-size_restricted.gif) no-repeat;
+   
     background-size: 100vw 100vh;
-    /* position:relative; */
-    background-color: #bac1c1f4;
-    position: fixed;
+    
+    
+   
+}
+.gif{
+    /* The image used */
+  background-image: url(Images/DetailedFittingBullmastiff-size_restricted.gif);
+
+  /* Full height */
+  height: 100%; 
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* Header Part */
 .header{
