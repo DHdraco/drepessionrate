@@ -81,12 +81,12 @@ body{
 
 .qn-1,.qn-2,.qn-3,.qn-4,.qn-5,.qn-6,.qn-7,.qn-8,.qn-9,.qn-10{
    
-    background-color: rgba(4, 134, 143, 0.306); */
+    background-color: rgba(4, 134, 143, 0.306); 
     /* width:700px;
     height:400px;
-    /* width:min-content;
-    height:min-content; */
-    /* width: 60vw;
+     width:min-content;
+    height:min-content; 
+    width: 60vw;
     height: auto; */
     font-size: 22px;
     font-weight:500;
