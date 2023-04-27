@@ -75,6 +75,11 @@ btn10.addEventListener('click',()=>{
     navbar10.classList.toggle('active');
 })
 
+function calll(){
+    tot();
+    document.getElementById("myForm").submit();
+
+}
 function tot(){
     var one = document.getElementsByName('one');
     var two = document.getElementsByName('two');

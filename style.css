@@ -80,10 +80,14 @@ body{
 
 
 .qn-1,.qn-2,.qn-3,.qn-4,.qn-5,.qn-6,.qn-7,.qn-8,.qn-9,.qn-10{
-    /*background-color: aqua;*/
-    background-color: rgba(4, 134, 143, 0.306);
-    width:700px;
+   
+    background-color: rgba(4, 134, 143, 0.306); */
+    /* width:700px;
     height:400px;
+    /* width:min-content;
+    height:min-content; */
+    /* width: 60vw;
+    height: auto; */
     font-size: 22px;
     font-weight:500;
     padding:20px;
@@ -92,7 +96,7 @@ body{
     padding:20px;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 .qn-2,.qn-3,.qn-4,.qn-5,.qn-6,.qn-7,.qn-8,.qn-9,.qn-10{
     display:none;
@@ -106,7 +110,10 @@ body{
     margin-left: 20px;
 }
 .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9{
-    margin-left:500px;
+    /* margin-left:500px; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
     width:150px;
     background-color: #08a0a09d;
     border-radius: 10px;
@@ -138,7 +145,10 @@ body{
     font-size: 22px;
     font-weight:500;
 }
-
+.dd{
+    display: flex;
+    justify-content: center;
+}
 
 .btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover,.btn8:hover,.btn9:hover,.btn10:hover{
     background-color: #00000039;
@@ -340,7 +350,7 @@ form,fieldset{
     .header-links.active{
         display:flex;
     }
-    .qn-1,.qn-2,.qn-3,.qn-4,.qn-5,.qn-6,.qn-7,.qn-8,.qn-9,.qn-10{
+    /* .qn-1,.qn-2,.qn-3,.qn-4,.qn-5,.qn-6,.qn-7,.qn-8,.qn-9,.qn-10{
         width:95vw;
         height:auto;
         font-size: 12px;
@@ -348,11 +358,11 @@ form,fieldset{
         padding:10px;
     }
     .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9,.btn10{
-        /* margin-left:250px;
+        margin-left:250px;
         width:400px;
         padding:2px;
         font-size: 12px;
-        font-weight:400; */
+        font-weight:400;
         margin-left:500px;
         width:150px;
         background-color: #cccccc;
@@ -370,7 +380,7 @@ form,fieldset{
         width:70px;
         font-size: 15px;
         font-weight:400;
-    }
+    } */
     #myPlot{
         width: 100vw;
         height:380px;
