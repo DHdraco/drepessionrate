@@ -226,3 +226,16 @@ function fun(){
     }
     Plotly.newPlot("myPlot", data, layout);*/
 }
+async function quote(){
+    console.log("helo")
+    var a= await fetch("https://type.fit/api/quotes")
+    .then(function(response) {
+      return response.json();
+    });
+    console.log(a);
+    // .then(function(data) {
+    // //   document.getElementById("uote").innerHTML=data
+    // console.log(data);
+    // });
+    
+}
