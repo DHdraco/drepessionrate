@@ -43,8 +43,9 @@ body {
     display:flex;
     justify-content:space-between;
     align-items:center;
-    color:#0080ff;
-    background-color: rgba(255, 255, 255, 0.014);
+    color:#ffffff;
+    background-color: #ffffff2b;
+    /* background-color: rgba(255, 255, 255, 0.014); */
     /*position:relative;*/}
 .logo{
     margin:8px;
@@ -194,7 +195,7 @@ form,fieldset{
 
 /* Footer Part */
 .footer{
-    background-color:rgb(255, 255, 255);
+    background-color: #ffffff2b;
     width:100vw;
     height:500px;
 }
@@ -316,14 +317,22 @@ form,fieldset{
     padding-left: 50px;
 }
 .footer{
-    padding-top: 20px;
-    height: 100px;
+    height: 10vh;
     width:100%;
     display:flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    background-color: aliceblue;
+    overflow: hidden;
+    border-radius: 50px 50px 0px 0px;
+    border-width: 10px;
+     /* background-color: #ffffff2b; */
+     background-color: #ffffff2b;
+}
+.footer:hover{
+    background-color: #00608055;
+    border-color:rgba(240, 249, 255, 0.104);
+    
 }
 
 @media(max-width:600px){
