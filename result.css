@@ -12,7 +12,7 @@ body{
     flex-direction:column;
    
     background-size: 100vw 100vh;
-    
+    /* overflow: hidden; */
     
    
 }
@@ -263,15 +263,14 @@ form,fieldset{
 
 /* Result Page */
 
-.result-container{
-    height:400vh;
+/* .result-container{
+    /* height:400vh; */
     /*display:flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
     background-color: darkblue;*/
-    /* position: relative; */
-}
+    /* position: relative; }*/
 .ill2{   
     position:absolute;
     z-index:0;
@@ -287,7 +286,7 @@ form,fieldset{
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    /*background-color: #45aaf2;*/
+    /* background-color: #45aaf2; */
 }
 .res-header{
     font-size:50px;
@@ -372,9 +371,9 @@ form,fieldset{
         font-size: 15px;
         font-weight:400;
     }
-    #myPlot{
-        /* width: 100vw;
+    /* #myPlot{
+        width: 100vw;
         height:380px;
-        overflow: hidden; */
-    }
+        overflow: hidden; }*/
+    
 }
