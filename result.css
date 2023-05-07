@@ -10,11 +10,8 @@ body{
     height:100vh;
     display:flex;
     flex-direction:column;
-   
     background-size: 100vw 100vh;
-    /* overflow: hidden; */
-    
-   
+    position: relative;
 }
 body {
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
@@ -45,8 +42,8 @@ body {
     align-items:center;
     color:#ffffff;
     background-color: #ffffff2b;
-    /* background-color: rgba(255, 255, 255, 0.014); */
-    /*position:relative;*/}
+    position:relative;
+}
 .logo{
     margin:8px;
     box-sizing:border-box;
@@ -70,15 +67,12 @@ body {
 }
 .header-links ul li a:hover{
     background-color: #00608055;
-    border-radius: 0px 0px 25px 25px;
-    margin-top: 0px;
-    color: aliceblue;
 }
 
 .btn{
-    /*padding:absolute;*/
-    margin-top:10px;
-    margin-right:16px;
+    position:absolute;
+    margin-top:25px;
+    margin-left:88%;
     height:22px;
     width:30px;
     display:none;
@@ -264,14 +258,6 @@ form,fieldset{
 
 /* Result Page */
 
-/* .result-container{
-    /* height:400vh; */
-    /*display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    background-color: darkblue;*/
-    /* position: relative; }*/
 .ill2{   
     position:absolute;
     z-index:0;
@@ -344,9 +330,8 @@ form,fieldset{
         width:100%;
     }
     .header{
-        display:flex;
-        flex-direction:row;
-        /*align-items:flex-start;*/
+        flex-direction:column;
+        align-items:flex-start;
     }
     .header-links ul{
         flex-direction:column;
@@ -354,6 +339,9 @@ form,fieldset{
     }
     .header-links ul li{
         text-align:center;
+    }
+    .header-links ul li a{
+        color:#f3f3f3;
     }
     .header-links.active{
         display:flex;
@@ -380,9 +368,4 @@ form,fieldset{
         font-size: 15px;
         font-weight:400;
     }
-    /* #myPlot{
-        width: 100vw;
-        height:380px;
-        overflow: hidden; }*/
-    
 }
